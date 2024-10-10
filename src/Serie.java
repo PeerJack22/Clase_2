@@ -50,4 +50,6 @@ public class Serie {
     public void setCalificacion(int calificacion) {
         this.calificacion = calificacion;
     }
+
+
 }

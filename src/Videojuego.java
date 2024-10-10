@@ -14,7 +14,7 @@ public class Videojuego {
         this.calificacion = calificacion;
     }
 
-    public void imprimir() {
+    public void imprimirvideojuego() {
         System.out.println("Nombre: " + nombre);
         System.out.println("Genero: " + genero);
         System.out.println("Año: " + anio);

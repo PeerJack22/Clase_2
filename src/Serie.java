@@ -14,7 +14,7 @@ public class Serie {
         this.calificacion = calificacion;
     }
 
-    public void imprimir() {
+    public void imprimirseries() {
         System.out.println("Nombre: " + nombre);
         System.out.println("Número de episodios: " + n_episodios);
         System.out.println("Director: " + director);

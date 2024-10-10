@@ -25,8 +25,12 @@ public class Main {
         Serie serie1=new Serie("Malcolm in the middle",151,"Linwood Boomer",8);
         Serie serie2=new Serie("Perdidos",121, "J.J Abrams",8);
 
-        System.out.println(serie1.getNombre());
-        System.out.println(serie2.getNombre());
+        System.out.println(serie1.getCalificacion());
+        System.out.println(serie2.getCalificacion());
+
+        serie1.setCalificacion(9);
+
+        System.out.println(serie1.getCalificacion());
 
         //Videojuegos
         Videojuego videojuego1=new Videojuego("Alien Isolation","Terror",2014,9);

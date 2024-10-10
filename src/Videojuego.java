@@ -28,4 +28,26 @@ public class Videojuego {
         return anio;
     }
 
+    public int getCalificacion() {
+        return calificacion;
+    }
+
+    //Setters
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public void setGenero(String genero) {
+        this.genero = genero;
+    }
+
+    public void setAnio(int anio) {
+        this.anio = anio;
+    }
+
+    public void setCalificacion(int calificacion) {
+        this.calificacion = calificacion;
+    }
+
 }

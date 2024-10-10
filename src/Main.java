@@ -25,10 +25,15 @@ public class Main {
         Serie serie1=new Serie("Malcolm in the middle",151,"Linwood Boomer",8);
         Serie serie2=new Serie("Perdidos",121, "J.J Abrams",8);
 
+        System.out.println(serie1.getNombre());
+        System.out.println(serie2.getNombre());
+
         //Videojuegos
         Videojuego videojuego1=new Videojuego("Alien Isolation","Terror",2014,9);
         Videojuego videojuego2=new Videojuego("Fornite","Battle Royale",2017,8);
 
+        System.out.println(videojuego1.getNombre());
+        System.out.println(videojuego2.getNombre());
 
         }
     }

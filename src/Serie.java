@@ -27,4 +27,25 @@ public class Serie {
         return director;
     }
 
+    public int getCalificacion() {
+        return calificacion;
+    }
+
+    //Setters
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public void setN_episodios(int n_episodios) {
+        this.n_episodios = n_episodios;
+    }
+
+    public void setDirector(String director) {
+        this.director = director;
+    }
+
+    public void setCalificacion(int calificacion) {
+        this.calificacion = calificacion;
+    }
 }

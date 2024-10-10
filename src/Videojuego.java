@@ -14,6 +14,8 @@ public class Videojuego {
         this.calificacion = calificacion;
     }
 
+    public Videojuego() {}
+
     //getters
 
     public String getNombre() {

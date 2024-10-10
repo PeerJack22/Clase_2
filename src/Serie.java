@@ -14,6 +14,8 @@ public class Serie {
         this.calificacion = calificacion;
     }
 
+    public Serie(){}
+
     //getters
     public String getNombre() {
         return nombre;

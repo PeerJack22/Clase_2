@@ -14,10 +14,18 @@ public class Videojuego {
         this.calificacion = calificacion;
     }
 
-    public void imprimirvideojuego() {
-        System.out.println("Nombre: " + nombre);
-        System.out.println("Genero: " + genero);
-        System.out.println("Año: " + anio);
-        System.out.println("Calificacion: " + calificacion);
+    //getters
+
+    public String getNombre() {
+        return nombre;
     }
+
+    public String getGenero() {
+        return genero;
+    }
+
+    public int getAnio() {
+        return anio;
+    }
+
 }

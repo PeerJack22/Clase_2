@@ -14,10 +14,17 @@ public class Serie {
         this.calificacion = calificacion;
     }
 
-    public void imprimirseries() {
-        System.out.println("Nombre: " + nombre);
-        System.out.println("Número de episodios: " + n_episodios);
-        System.out.println("Director: " + director);
-        System.out.println("Calificacion: " + calificacion);
+    //getters
+    public String getNombre() {
+        return nombre;
     }
+
+    public int getN_episodios() {
+        return n_episodios;
+    }
+
+    public String getDirector() {
+        return director;
+    }
+
 }

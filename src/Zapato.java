@@ -11,6 +11,14 @@ public class Zapato {
         this.color = color;
     }
 
+    public void mostrar_zapato(){
+        System.out.println("------------------------------------");
+        System.out.println("Marca del zapato: " +this.marca);
+        System.out.println("Talla del zapato: " +this.talla);
+        System.out.println("Color: " +this.color);
+        System.out.println("------------------------------------");
+        System.out.println();
+    }
     //Setters y Getters
 
     public String getColor() {

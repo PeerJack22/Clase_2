@@ -16,6 +16,16 @@ public class Serie {
 
     public Serie(){}
 
+    public void imprimir_series(){
+        System.out.println("------------------------------------");
+        System.out.println("Nombre: " +this.nombre);
+        System.out.println("Número de episodios: " +this.n_episodios);
+        System.out.println("Director: " +this.director);
+        System.out.println("Calificacion: " +this.calificacion);
+        System.out.println("------------------------------------");
+        System.out.println();
+    }
+
     //getters
     public String getNombre() {
         return nombre;

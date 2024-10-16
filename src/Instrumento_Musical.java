@@ -12,6 +12,16 @@ public class Instrumento_Musical {
         this.tipo = tipo;
     }
 
+    //Imprimir
+
+    public void mostrar_instrumento(){
+        System.out.println("------------------------------------");
+        System.out.println("Nombre del instrumento: " +this.nombre);
+        System.out.println("Tipo del instrumento: " +this.tipo);
+        System.out.println("Color de instrumento: " +this.color);
+        System.out.println("------------------------------------");
+        System.out.println();
+    }
     //Getters y Setters
     public String getNombre() {
         return nombre;

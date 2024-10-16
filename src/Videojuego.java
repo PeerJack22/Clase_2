@@ -16,6 +16,16 @@ public class Videojuego {
 
     public Videojuego() {}
 
+    public void imprimir_videojuego() {
+        System.out.println("------------------------------------");
+        System.out.println("Nombre: " +this.nombre);
+        System.out.println("Género: " +this.genero);
+        System.out.println("Año: " +this.anio);
+        System.out.println("Calificación: " +this.calificacion);
+        System.out.println("------------------------------------");
+        System.out.println();
+    }
+
     //getters
 
     public String getNombre() {

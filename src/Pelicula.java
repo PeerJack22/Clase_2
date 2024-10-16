@@ -1,6 +1,6 @@
 public class Pelicula {
     String titulo;
-    int anio:
+    int anio;
     String genero;
 
     //metodos
@@ -10,6 +10,16 @@ public class Pelicula {
         this.titulo = titulo;
         this.genero = genero;
         this.anio = anio;
+    }
+
+    //Imprimir
+    public void mostrar_Pelicula() {
+        System.out.println("------------------------------------");
+        System.out.println("Titulo: " +this.titulo);
+        System.out.println("Género: " +this.genero);
+        System.out.println("Año: " +this.anio);
+        System.out.println("------------------------------------");
+        System.out.println();
     }
 
     //Setters y Getters

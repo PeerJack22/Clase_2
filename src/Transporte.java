@@ -14,9 +14,15 @@ public class Transporte {
         this.color = color;
     }
 
+    public void mostrar_transporte(){
+        System.out.println("------------------------------------");
+        System.out.println("Tipo de transporte: " +this.tipo);
+        System.out.println("Capacidad de personas: " +this.capacidad_de_personas);
+        System.out.println("Color: " +this.color);
+        System.out.println("------------------------------------");
+        System.out.println();
+    }
     //setters y getters
-
-
     public String getTipo() {
         return tipo;
     }

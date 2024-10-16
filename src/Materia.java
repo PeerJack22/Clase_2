@@ -12,9 +12,16 @@ public class Materia {
         this.descripcion = descripcion;
     }
 
+    public void mostrarMateria(){
+        System.out.println("------------------------------------");
+        System.out.println("Nombre: " +this.nombre);
+        System.out.println("Color: " +this.color);
+        System.out.println("Descripción: " +this.descripcion);
+        System.out.println("------------------------------------");
+        System.out.println();
+    }
+
     //Setters y Getters
-
-
     public String getNombre() {
         return nombre;
     }

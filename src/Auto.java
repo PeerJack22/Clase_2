@@ -13,6 +13,16 @@ public class Auto {
         this.peso = peso;
     }
 
+    //Imprimir
+    public void mostrar_auto(){
+        System.out.println("------------------------------------");
+        System.out.println("Marca: " +this.marca);
+        System.out.println("Color: " +this.color);
+        System.out.println("Peso: " +this.peso);
+        System.out.println("------------------------------------");
+        System.out.println();
+    }
+
     //Getters and setters
 
     public String getMarca() {

@@ -16,6 +16,16 @@ public class Persona {
         this.peso = peso;
     }
 
+    public void imprimir_persona (){
+        System.out.println("------------------------------------");
+        System.out.println("Nombre: " +this.nombre);
+        System.out.println("Edad: " +this.edad);
+        System.out.println("Altura: " +this.altura);
+        System.out.println("Peso: " +this.peso);
+        System.out.println("------------------------------------");
+        System.out.println();
+    }
+
     //Setters y Getters
 
     public String getNombre() {
